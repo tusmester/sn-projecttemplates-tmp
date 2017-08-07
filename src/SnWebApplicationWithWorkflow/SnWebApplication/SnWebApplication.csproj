@@ -143,6 +143,14 @@
       <HintPath>..\packages\SenseNet.Services.7.0.0-beta41\lib\net451\SenseNet.ContentRepository.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="SenseNet.Notification, Version=7.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\SenseNet.Notification.7.0.0-beta0\lib\net451\SenseNet.Notification.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="SenseNet.Notification.Portlets, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\SenseNet.Notification.Portlets.7.0.0-beta0\lib\net451\SenseNet.Notification.Portlets.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="SenseNet.Preview, Version=7.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\SenseNet.Preview.7.0.0-beta2\lib\net451\SenseNet.Preview.dll</HintPath>
       <Private>True</Private>
@@ -356,6 +364,7 @@
     <Content Include="Admin\tools\install-workspaces.zip" />
     <Content Include="Admin\tools\install-workflow.zip" />
     <Content Include="Admin\tools\install-services.zip" />
+    <Content Include="Admin\tools\install-notification.zip" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
